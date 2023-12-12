@@ -1,2 +1,29 @@
 ﻿body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+input, textarea {
+    font-size:18px;
+    width:200px;
+}
+
+input[type=submit] {
+    width:auto:
+}
+
+label {
+    font-size:16px:
+}
+
+#theForm{
+    background-color: gray;
+}
+
+#theForm [type=submit] {
+    background-color: black;
+    color: white;
+    }
+
+ul.prop {
+    font-size: small;
+}
