@@ -1,5 +1,10 @@
-﻿body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+﻿h2 {
+    border-style: inset;
+    background-color: whitesmoke;
+}
+
+body {
+    font-family: 'Monotype Corsiva';
 }
 
 input, textarea {
@@ -15,8 +20,9 @@ label {
     font-size:16px:
 }
 
-#theForm{
-    background-color: gray;
+#theForm {
+    border-style: inset;
+    background-color: whitesmoke;
 }
 
 #theForm [type=submit] {
@@ -25,5 +31,61 @@ label {
     }
 
 ul.prop {
+    border-style: outset;
     font-size: small;
 }
+
+ul.prop li {
+    list-style-type: none;
+}
+
+.info {
+    border-style: inset;
+    display: inline block;
+    padding: 48px 24px;
+}
+
+.info img {
+    border-style: outset;
+}
+
+h3 {
+    border-style: inset;
+}
+
+#log-in {
+    border-style: inset;
+    cursor: pointer;
+}
+
+.popForm {
+    padding: 5px;
+    border: 2px black inset;
+    display: inline-block;
+}
+
+popForm input{ 
+    width: 200px;
+}
+
+.popForm label{
+    width: 150px;
+    display: inline-block;
+
+}
+
+.popForm input[type=checkbox], .popForm input[type=submit]{
+    width:auto;
+}
+
+menu li{
+    display: inline;
+}
+
+menu li::after {
+    content: '|';
+}
+
+    menu li:last-of-type::after {
+        content: "";
+    }
