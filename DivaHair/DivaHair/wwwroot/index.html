@@ -3,57 +3,65 @@
 <head>
     <meta charset="utf-8" />
     <title>Diva Hair</title>
-    <link href="style.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+    
 </head>
 <body>
     <h2>Beautiful Brazillian Hair For Sale<h2>
-        <div class="info">
-            <img src="/images/8inchcut.jpg">
-            <h3>8-inch + Closure</h3>
-            <ul class="prop">
-                <li>Price 3 Bundles: R700.00</li>
-                <li>Grade: 10A</li>
-                <li>Size: 8-inch</li>
-                <li>Closure Only 10-inch: R250.00</li>
-                <li>Total Discount Price (3 Bundles + 10-inch Closure): R850</li>
-            </ul>
-            <button id="Buy">Buy</button>
-        </div>
-        <div id="theForm">
-            <form>
-                <label>Your Name:</label>
-                <input />
-                <br />
-                <label>Email:</label>
-                <input type="email"/>
-                <br />
-                <label>Subject:</label>
-                <input type="text"/>
-                <br />
-                <label>Message:</label>
-                <textarea rows="4"></textarea>
-                <br />
-                <input type="submit" value="Send Message"/>
-                <br />
-            </form>
-        </div>
+    <div class="info">
+        <img src="/images/8inchcut.jpg">
+        <h3>8-inch + Closure</h3>
+        <ul class="prop">
+            <li>Price 3 Bundles: R700.00</li>
+            <li>Grade: 10A</li>
+            <li>Size: 8-inch</li>
+            <li>Closure Only 10-inch: R250.00</li>
+            <li>Total Discount Price (3 Bundles + 10-inch Closure): R850</li>
+        </ul>
+        <button id="Buy">Buy</button>
+    </div>
+    <div id="theForm">
+        <form>
+            <label>Your Name:</label>
+            <input />
+            <br />
+            <label>Email:</label>
+            <input type="email" />
+            <br />
+            <label>Subject:</label>
+            <input type="text" />
+            <br />
+            <label>Message:</label>
+            <br />
+            <textarea rows="4"></textarea>
+            <br />
+            <input type="submit" value="Send Message" />
+            <br />
+        </form>
+    </div>
+
+    <div>
         <div if="log-in">Login</div>
-        <form class="popForm">
+        <form class="logForm">
             <div>
                 <label>Username:</label>
                 <input />
             </div>
             <div>
                 <label>Password:</label>
-                <input type="password"/>
+                <input type="password" />
             </div>
             <div>
-                <input type="checkbox"/>
+                <input type="checkbox" />
                 <label>Remember Me?</label>
             </div>
             <div>
                 <input type=" submit" value="Login" />
             </div>
         </form>
+    </div>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
