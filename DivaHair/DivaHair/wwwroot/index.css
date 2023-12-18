@@ -23,7 +23,6 @@ label {
     width: auto;
     border: 1px solid black;
     background-color: whitesmoke;
-    display: inline-block;
 }
 
     #theForm label {
@@ -32,7 +31,7 @@ label {
         background-color: whitesmoke;
     }
 
-    #theForm [type=submit] {
+    #theForm input[type=submit] {
         width: 200px;
         background-color: black;
         color: white;
@@ -50,6 +49,12 @@ ul.prop li {
 .info {
     border: 1px solid black;
     padding: 48px 24px;
+    display: inline-block;
+    margin:2px;
+    width: 555px;
+    background-color: whitesmoke;
+
+
 }
 
     .info img {

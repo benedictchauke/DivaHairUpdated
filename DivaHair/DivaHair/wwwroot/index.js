@@ -15,7 +15,7 @@
     var $loggin = $("#log-in");
     var $logForm = $(".logForm");
 
-    $log-in.on("click", function () {
+    $loggin.on("click", function () {
         $logForm.toggle(1000);
     });
 });
