@@ -4,8 +4,15 @@
   "libraries": [
     {
       "library": "jquery@3.7.1",
-      "files": [ "jquery.min.js", "jquery.slim.js" ],
+      "files": [ "jquery.min.js", "jquery.slim.js", "jquery.slim.min.map"],
       "destination": "wwwroot/lib/jquery"
+    },
+
+    {
+      "library": "bootstrap@5.3.3",
+      "files": [ "css/bootstrap-grid.css", "css/bootstrap-grid.css.map", "css/bootstrap-grid.min.css" ],
+      "destination": "wwwroot/lib/bootstrap",
+      "provider": "unpkg"
     }
   ]
 }
