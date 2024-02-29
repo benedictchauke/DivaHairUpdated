@@ -13,6 +13,12 @@
       "files": [ "css/bootstrap-grid.css", "css/bootstrap-grid.css.map", "css/bootstrap-grid.min.css" ],
       "destination": "wwwroot/lib/bootstrap",
       "provider": "unpkg"
+    },
+    {
+      "library": "flag-icons@7.1.0",
+      "files": [ "css/flag-icons.css", "css/flag-icons.min.css" ],
+      "destination": "wwwroot/lib/flag-icons"
     }
+
   ]
 }
