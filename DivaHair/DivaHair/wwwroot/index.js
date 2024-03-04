@@ -1,6 +1,6 @@
-﻿$(function () {
+﻿$(document).ready(function () {
     var theForm = $("#theForm");
-    theForm.hide();
+    theForm.show();
 
     var button = $("#Buy");
     button.on("click", function() {
