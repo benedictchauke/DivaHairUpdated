@@ -22,6 +22,11 @@ namespace DivaHair
         {
             app.UseDefaultFiles();
             app.UseStaticFiles();
+            app.UseMvc(cfg => {
+                cfg.MapRoute("Default",
+"{controller}/{action}/{id?}",
+new { controller = "App", Action = "Index" });
+            });
         }
     }
 }
