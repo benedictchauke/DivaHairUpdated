@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DivaHair.Controller
 {
-    public class AppController : Controller
+    public class AppController : Controller //controller is descriptive view looks for app
     {
         public IActionResult Index()
         {
